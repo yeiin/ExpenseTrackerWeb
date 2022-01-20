@@ -32,3 +32,19 @@ React basics & working with components
     - Create React App ) basic step for make react app. recommend
 
     - node.js - make the react runs out of the browser.
+
+    - react 
+        - css를 js file에서 import 가능
+        - html code 혼용 사용하는 것 처럼 -> 전달 전 변환이 일어난다.
+        - Using only one html file -> it means react working on the same html file.
+        - react-dom
+
+    - JSX
+        - extension of Javascript grammar. 
+        - This is only work because of this processdoes NPM start process which we started, //sources로 부터
+        - npm (modules which is included Node.js)
+
+    - Build your own, custom HTML Elements -> components
+    - build a component tree -> <App /> 부터.. 가지치기
+    - react component -> javascript function
+    - create component -> export -> import -> make code. <sth></sth>
