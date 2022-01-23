@@ -48,3 +48,17 @@ React basics & working with components
     - build a component tree -> <App /> 부터.. 가지치기
     - react component -> javascript function
     - create component -> export -> import -> make code. <sth></sth>
+
+    - props : Components can't just use data stored in other components.
+        - no limit
+        - props are our way of passing data from components A to B.(to direct child components)
+        - children is reserved name. -> wrapping 
+    
+    - react is a js function with some JSX twist.
+    - if there is no content : self -closing.
+
+
+- Summary 3 (Components)
+    - React core syntax & JSX
+    - Working with Components.(props)
+    - Working with Data(props)
