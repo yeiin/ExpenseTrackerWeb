@@ -62,3 +62,10 @@ React basics & working with components
     - React core syntax & JSX
     - Working with Components.(props)
     - Working with Data(props)
+
+section 4
+
+- from start to now, the program is static. we can make dynamic.
+- Using EventhandlerListener
+- using "on" and adding function
+    <button onClick={()=>{console.log('Clicked')}}></button>
