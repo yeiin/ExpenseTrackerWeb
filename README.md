@@ -83,3 +83,38 @@ section 4
     When react build, HTML modify to js.
 
 - setTitle recall that function.
+- At the eventHandler, we don't execute that, just pointing.
+
+- Default vanilla js event Handler
+    document.getExementById('').addEventListener('click', (event) => {});
+- React
+    <input type="text" onChange={titleChangeHandler}/>
+    const titleChangeHandler =(event)=>{}; ...
+
+- target // useful.. to input box!!
+
+- to make multiple event handler: just adding useState() multiple times
+- Want to handle together just use object and be careful the other data losted.
+    const [userInput, setUserInput] = useState({
+    enteredTitle: "",
+    enteredAmount: "",
+    entertedDate: "",
+  });
+
+  const titleChangeHandler = (event) => {
+    // setEnteredTitle(event.target.value);
+    setUserInput({
+        ...userInput,
+        enteredTitle: event.target.value, 
+    })
+};
+
+- event handler
+    - setUserInput({
+        ...userInput,
+    });
+
+    - setUserInput((prevState)=>{
+        return { ...prevState, enteredTitle: event.target.value}
+    });
+    can garantee the latest snapshot
