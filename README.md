@@ -69,3 +69,17 @@ section 4
 - Using EventhandlerListener
 - using "on" and adding function
     <button onClick={()=>{console.log('Clicked')}}></button>
+
+- keep in mind component is a function
+- Some function returns JSX
+- By using our components in JSX code, we make React aware of our component functions.
+- The reason for this is that calling this state updating function actually doesn't change the value right away, but instead schedules this state update.
+- Do not need to import React from react. but make clearly that JSX is under the JSX, they are imported.
+
+- difference between JS and JSXi
+    JSX looks like HTML.
+    JSX is a language that makes react components.
+    When we use .js file, it doesn't rendering automatically, so we use JSX.
+    When react build, HTML modify to js.
+
+- setTitle recall that function.
