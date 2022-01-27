@@ -118,3 +118,10 @@ section 4
         return { ...prevState, enteredTitle: event.target.value}
     });
     can garantee the latest snapshot
+
+- submit and clear
+    - just use <input type="text" value = {enteredTitle} onChange={titleChangeHandler} />
+    and in the submit handler we call setEnteredTitle('') <- the empty string.
+
+- How you communicate with up!
+    - using your own components, to execute up's function!! with props.
